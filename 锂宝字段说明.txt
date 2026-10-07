@@ -1,0 +1,30 @@
+
+{
+	"nOperaType": 0,
+	"CycModeReverse": 1,
+	"strBackupDir": "D:\\1",
+	"strSpiFullPath": "D:\\1\\LAND.spi",
+	"SchemeFlag": "1210",
+	"PartA": "QQQWWW",
+	"MultipleChls": [
+		{
+			"nBox": 2,
+			"nChl": 1,
+			"strBattNo": "A1111111111",
+			"ActMass": 1.2,
+			"SpeCap": 3.4
+		}
+	]
+}
+
+规则：
+
+SchemeFlag:
+// 第1个数字取0/1，分别代表 启用/弃用 PartA
+// 第2个数字取0/1/2/3，分别代表 弃用PartB/使用[通道启动日期/电池条码/电池条码_通道启动时刻] 作为PartB
+// 第3个数字取0/1/2，分别代表 弃用PartC/使用通道号(例如: _003_8)/PartC_Alias 作为PartC
+// 第4个数字取0/1，分别代表名字顺序 AB_C / A_C_B
+
+
+PartA:
+前缀名
