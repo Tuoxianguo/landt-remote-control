@@ -1,0 +1,37 @@
+# ---- PyInstaller 打包产物 ----
+landt_app/dist/
+landt_app/build/
+landt_app/*.spec
+build/
+dist/
+*.spec
+
+# ---- Python 缓存 ----
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 运行时配置 ----
+landt_config.json
+**/landt_config.json
+
+# ---- 离线发布包 / 压缩包（通过 GitHub Releases 分发）----
+蓝电测试柜远程控制上位机_*/
+*.zip
+
+# ---- 厂商协议文档（版权资料，不纳入版本库）----
+*.docx
+
+# ---- 临时/中间文件 ----
+_*.py
+_*.txt
+_protocol_dump.txt
+
+# ---- 系统/编辑器 ----
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
