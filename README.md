@@ -102,6 +102,7 @@ python landt_app/landt_mock_server.py   # 启动模拟服务器(默认7777)
 - **运行日志**：记录每次操作与返回码（**判断成功以 `nCode=0` 为准**）。
 
 完整图文手册见 [`landt_app/使用说明书.md`](landt_app/使用说明书.md)。
+**在另一台电脑通过局域网 TCP/HTTP 远程接入**，见 [`landt_app/远程接入文档.md`](landt_app/远程接入文档.md)。
 
 ---
 
@@ -155,7 +156,8 @@ pyinstaller --noconfirm --onefile --console  --name "蓝电协议模拟服务器
 ├── landt_app/
 │   ├── landt_control.py          # 主程序（GUI 上位机，单文件）
 │   ├── landt_mock_server.py      # 协议模拟服务器（离线自测）
-│   └── 使用说明书.md              # 图文使用手册
+│   ├── 使用说明书.md              # 图文使用手册
+│   └── 远程接入文档.md            # 局域网远程接入（另一台电脑 TCP/HTTP 控制）
 └── 锂宝字段说明.txt               # 启动参数/备份命名字段说明
 ```
 
